@@ -20,6 +20,11 @@ namespace OOPSConcepts
             Console.WriteLine(polymorphismobj.add(25, 45));
             Console.WriteLine(polymorphismobj.add(25, 12.54));
             Console.WriteLine(polymorphismobj.add(12, 47, 34));
+
+            Console.WriteLine("3)Abstraction");
+            Rectangle rectangleobj = new Rectangle();
+            Console.WriteLine("Area of rectangle is  " +rectangleobj.Area());
+
             Console.ReadKey();
 
         }
