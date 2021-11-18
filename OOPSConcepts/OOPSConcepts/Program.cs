@@ -41,11 +41,15 @@ namespace OOPSConcepts
 
             Console.WriteLine("\n7)Do While Loop ");
             DoWhileLoop dowhileLoopobj = new DoWhileLoop();
-            dowhileLoopobj.Power(); */
+            dowhileLoopobj.Power(); 
 
             Console.WriteLine("\n8)For Loop ");
             ForLoop forLoopobj = new ForLoop();
-            forLoopobj.Power();
+            forLoopobj.Power();*/
+
+            Console.WriteLine("\n9)Array program for greater number");
+            ArrayPgm arrayPgmobj = new ArrayPgm();
+            arrayPgmobj.FindMax();
             Console.ReadKey();
 
         }

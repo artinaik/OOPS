@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstraction.cs" />
+    <Compile Include="ArrayPgm.cs" />
     <Compile Include="DoWhileLoop.cs" />
     <Compile Include="ForLoop.cs" />
     <Compile Include="IfElse.cs" />
