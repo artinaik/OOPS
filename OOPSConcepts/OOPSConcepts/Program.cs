@@ -37,13 +37,16 @@ namespace OOPSConcepts
             
             Console.WriteLine("\n6)While Loop ");
             WhileLoop whileLoopobj = new WhileLoop();
-            whileLoopobj.Power();*/
+            whileLoopobj.Power();
 
             Console.WriteLine("\n7)Do While Loop ");
             DoWhileLoop dowhileLoopobj = new DoWhileLoop();
-            dowhileLoopobj.Power(); 
+            dowhileLoopobj.Power(); */
 
-             Console.ReadKey();
+            Console.WriteLine("\n8)For Loop ");
+            ForLoop forLoopobj = new ForLoop();
+            forLoopobj.Power();
+            Console.ReadKey();
 
         }
     }

@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Abstraction.cs" />
     <Compile Include="DoWhileLoop.cs" />
+    <Compile Include="ForLoop.cs" />
     <Compile Include="IfElse.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="Polymorphism.cs" />
