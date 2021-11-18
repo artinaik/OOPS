@@ -14,6 +14,12 @@ namespace OOPSConcepts
             Console.WriteLine("1)Inheritance");
             AvarageMarks avarageMarksobj = new AvarageMarks();
             avarageMarksobj.FindAvg();
+
+            Console.WriteLine("2)Polymorphism");
+            Polymorphism polymorphismobj = new Polymorphism();
+            Console.WriteLine(polymorphismobj.add(25, 45));
+            Console.WriteLine(polymorphismobj.add(25, 12.54));
+            Console.WriteLine(polymorphismobj.add(12, 47, 34));
             Console.ReadKey();
 
         }
