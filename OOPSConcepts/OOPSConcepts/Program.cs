@@ -11,7 +11,7 @@ namespace OOPSConcepts
         static void Main(string[] args)
         {
             Console.WriteLine("OOPS Concepts");
-            Console.WriteLine("1)Inheritance");
+            /*Console.WriteLine("1)Inheritance");
             AvarageMarks avarageMarksobj = new AvarageMarks();
             avarageMarksobj.FindAvg();
 
@@ -25,16 +25,19 @@ namespace OOPSConcepts
             Rectangle rectangleobj = new Rectangle();
             Console.WriteLine("Area of rectangle is  " +rectangleobj.Area());
 
-            /*Console.WriteLine("4)IfElse statement");
+            Console.WriteLine("4)IfElse statement");
             Console.WriteLine("Greater number program");
             IfElse ifElseobj = new IfElse();
             ifElseobj.Max();
-            */
+            
             Console.WriteLine("\n5)SwitchCase statement");
             Console.WriteLine("Airthmetic operations");
             SwitchCase switchCaseobj = new SwitchCase();
             switchCaseobj.Operation();
-
+            */
+            Console.WriteLine("\n6)While Loop ");
+            WhileLoop whileLoopobj = new WhileLoop();
+            whileLoopobj.Power();
             Console.ReadKey();
 
         }
