@@ -25,6 +25,11 @@ namespace OOPSConcepts
             Rectangle rectangleobj = new Rectangle();
             Console.WriteLine("Area of rectangle is  " +rectangleobj.Area());
 
+            Console.WriteLine("4)IfElse statement");
+            Console.WriteLine("Greater number program");
+            IfElse ifElseobj = new IfElse();
+            ifElseobj.Max();
+
             Console.ReadKey();
 
         }
