@@ -34,11 +34,16 @@ namespace OOPSConcepts
             Console.WriteLine("Airthmetic operations");
             SwitchCase switchCaseobj = new SwitchCase();
             switchCaseobj.Operation();
-            */
+            
             Console.WriteLine("\n6)While Loop ");
             WhileLoop whileLoopobj = new WhileLoop();
-            whileLoopobj.Power();
-            Console.ReadKey();
+            whileLoopobj.Power();*/
+
+            Console.WriteLine("\n7)Do While Loop ");
+            DoWhileLoop dowhileLoopobj = new DoWhileLoop();
+            dowhileLoopobj.Power(); 
+
+             Console.ReadKey();
 
         }
     }
